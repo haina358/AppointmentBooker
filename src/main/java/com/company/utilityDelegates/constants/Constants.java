@@ -1,5 +1,7 @@
 package com.company.utilityDelegates.constants;
 
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.util.Calendar;
 import java.util.TimeZone;
 
@@ -96,9 +98,10 @@ public class Constants {
     public static final String AVAILABILITY_ADDED = "\nSuccess!! Availability on %s has been added from %s to %s.\n";
 
     // Date-Time formatting constants.
+    public static final ZoneId ZONE_ID = ZonedDateTime.now(ZoneId.systemDefault()).getZone();
+    public static final String TIMEZONE = TimeZone.getTimeZone(ZONE_ID).getID();
     public static final String YEAR_2020 = "/2020";
     public static final String MONTH_TIME_FORMAT = "MM/dd/yyyy HH:mm";
-    public static final String TIMEZONE = "America/New_York";
     public static final String TIME_FORMAT = "HH:mm";
     public static final String DATE_FORMAT = "MM/dd";
     public static final String LEAP_DAY = "02/29";
