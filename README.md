@@ -14,5 +14,5 @@ particular booking.
 
 1.) Clone the repository and `cd` into AppointmentBooker
 
-2.) java -jar out/artifacts/DateIntervalScheduler_jar/DateIntervalScheduler.jar 
+2.) From terminal/cmd, `java -jar out/artifacts/DateIntervalScheduler_jar/DateIntervalScheduler.jar`
 
