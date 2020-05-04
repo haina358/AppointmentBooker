@@ -9,10 +9,3 @@ add conflicting bookings, those bookings will not be added and the user will be 
 Users are prompted to either enter a date to begin adding a booking, <Bookings> to view all current bookings,
 <Openings> to view current openings, <Add> to input availability for a particular date, or <Delete> to delete a
 particular booking.
-  
-# To Run
-
-1.) Clone the repository and `cd` into AppointmentBooker
-
-2.) From terminal/cmd, `java -jar out/artifacts/DateIntervalScheduler_jar/DateIntervalScheduler.jar`
-
