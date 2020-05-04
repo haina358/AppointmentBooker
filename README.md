@@ -1,7 +1,7 @@
 # AppointmentBooker
 
 AppointmentBooker is an implementation of a dynamic calendar. Users can input their availability for a given
-day, add and delete calendar bookings, and print all their current bookings.
+day, add and delete calendar bookings, or print all their current bookings.
 
 Availability for a particular day is dynamically updated as bookings are added by the user. If the user attempts to
 add conflicting bookings, those bookings will not be added and the user will be notified.
@@ -12,5 +12,7 @@ particular booking.
   
 # To Run
 
+1.) Clone the repository and `cd` into AppointmentBooker
 
+2.) java -jar out/artifacts/DateIntervalScheduler_jar/DateIntervalScheduler.jar 
 
